@@ -1,13 +1,91 @@
-*{
-    padding: 0px;
+body {
+    color: white;
+    background: black;
     margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
 }
-body{
-    background-color: black;
-}
-header{
+
+header {
     border-bottom: solid 2px #3ea6ff;
     padding: 20px;
     font-size: 32px;
     color: #3ea6ff;
+}
+
+.chamada {
+    background: #b89cd5;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-filmes {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-filmes img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-filmes img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    color: #2a7ae4;
+}
+
+.categoria-subtitulo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.categoria-subtitulo h2 {
+    color: #2a7ae4;
+    margin: 0;
+}
+
+#toggle-button {
+    background-color: #2a7ae4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+#toggle-button:hover {
+    background-color: #1a5bb8;
+    color: #000;
 }
